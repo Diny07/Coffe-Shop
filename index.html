@@ -1,0 +1,720 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Coffee shop dengan kopi berkualitas, suasana nyaman, dan pengalaman terbaik untuk setiap momen.">
+
+    <title>KOPI — Coffee Shop</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                KOPI<span>.</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">
+                Order Now
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section class="hero" id="home">
+
+            <div class="hero-content container">
+
+                <div class="hero-text">
+
+                    <p class="section-label">
+                        WELCOME TO OUR COFFEE SHOP
+                    </p>
+
+                    <h1>
+                        Good Coffee.
+                        <span>Good Mood.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Nikmati secangkir kopi berkualitas dengan suasana
+                        hangat dan nyaman untuk menemani setiap momenmu.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#menu" class="button button-primary">
+                            Explore Menu
+                        </a>
+
+                        <a href="#about" class="button button-secondary">
+                            Our Story
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="hero-coffee.jpg"
+                        alt="Secangkir kopi"
+                    >
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <video
+                        src="about-coffee.mp4"
+                        alt="Suasana coffee shop"
+                        autoplay
+                        muted
+                        loop
+                        width = auto
+                        height = 100%
+                    >
+                </div>
+
+                <div class="about-content">
+
+                    <p class="section-label">
+                        OUR STORY
+                    </p>
+
+                    <h2>
+                        More Than Just
+                        <span>Coffee.</span>
+                    </h2>
+
+                    <p>
+                        Kami percaya bahwa kopi bukan hanya tentang rasa.
+                        Kopi adalah tentang cerita, percakapan, dan momen
+                        sederhana yang menjadi berkesan.
+                    </p>
+
+                    <p>
+                        Setiap cangkir kami dibuat dengan perhatian,
+                        menggunakan bahan pilihan dan diracik untuk
+                        memberikan pengalaman terbaik.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Discover Our Story →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MENU
+        ========================== -->
+        <section class="menu section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        OUR MENU
+                    </p>
+
+                    <h2>
+                        Crafted For Your
+                        <span>Moments.</span>
+                    </h2>
+
+                    <p>
+                        Pilihan minuman dan makanan favorit yang siap
+                        menemani harimu.
+                    </p>
+
+                </div>
+
+
+                <div class="menu-grid">
+
+                    <!-- Menu 1 -->
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+                            <img
+                                src="menu-1.jpg"
+                                alt="Iced Coffee"
+                            >
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title">
+                                <h3>Iced Coffee</h3>
+                                <span>25K</span>
+                            </div>
+
+                            <p>
+                                Kopi dingin dengan perpaduan espresso
+                                dan susu yang creamy.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu 2 -->
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+                            <img
+                                src="menu-2.jpg"
+                                alt="Cappuccino"
+                            >
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title">
+                                <h3>Cappuccino</h3>
+                                <span>28K</span>
+                            </div>
+
+                            <p>
+                                Espresso dengan steamed milk dan
+                                foam yang lembut.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu 3 -->
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+                            <img
+                                src="menu-3.jpg"
+                                alt="Caramel Latte"
+                            >
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title">
+                                <h3>Caramel Latte</h3>
+                                <span>30K</span>
+                            </div>
+
+                            <p>
+                                Latte creamy dengan sentuhan rasa
+                                caramel yang manis.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Menu 4 -->
+                    <article class="menu-card">
+
+                        <div class="menu-image">
+                            <img
+                                src="menu-4.jpg"
+                                alt="Matcha Latte"
+                            >
+                        </div>
+
+                        <div class="menu-info">
+
+                            <div class="menu-title">
+                                <h3>Matcha Latte</h3>
+                                <span>28K</span>
+                            </div>
+
+                            <p>
+                                Matcha pilihan dengan susu yang
+                                creamy dan lembut.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="menu-button">
+                    <a href="#contact" class="button button-primary">
+                        View Full Menu
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             WHY US
+        ========================== -->
+        <section class="why-us section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        WHY CHOOSE US
+                    </p>
+
+                    <h2>
+                        Made With
+                        <span>Passion.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            ☕
+                        </div>
+
+                        <h3>Quality Coffee</h3>
+
+                        <p>
+                            Menggunakan biji kopi pilihan untuk
+                            menghasilkan rasa yang konsisten.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            ✦
+                        </div>
+
+                        <h3>Freshly Made</h3>
+
+                        <p>
+                            Setiap minuman dibuat fresh ketika
+                            kamu melakukan pemesanan.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            ♡
+                        </div>
+
+                        <h3>Cozy Place</h3>
+
+                        <p>
+                            Tempat nyaman untuk bekerja, berbincang,
+                            atau sekadar menikmati kopi.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            ★
+                        </div>
+
+                        <h3>Friendly Price</h3>
+
+                        <p>
+                            Kopi berkualitas dengan harga yang tetap
+                            bersahabat untuk dinikmati setiap hari.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GALLERY
+        ========================== -->
+        <section class="gallery section" id="gallery">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        OUR SPACE
+                    </p>
+
+                    <h2>
+                        Take A Look
+                        <span>Inside.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item gallery-large">
+                        <img
+                            src="assets/images/gallery-1.jpg"
+                            alt="Interior coffee shop"
+                        >
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="assets/images/gallery-2.jpg"
+                            alt="Coffee shop"
+                        >
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="assets/images/gallery-3.jpg"
+                            alt="Coffee and dessert"
+                        >
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="assets/images/gallery-4.jpg"
+                            alt="Barista membuat kopi"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TESTIMONIAL
+        ========================== -->
+        <section class="testimonial section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        CUSTOMER LOVE
+                    </p>
+
+                    <h2>
+                        What They
+                        <span>Say.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="testimonial-grid">
+
+                    <article class="testimonial-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “Kopinya enak banget dan tempatnya nyaman.
+                            Cocok buat kerja atau ngobrol santai.”
+                        </p>
+
+                        <h3>— Raka</h3>
+
+                    </article>
+
+
+                    <article class="testimonial-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “Suasananya cozy, pelayanan ramah,
+                            dan caramel lattenya recommended!”
+                        </p>
+
+                        <h3>— Nadia</h3>
+
+                    </article>
+
+
+                    <article class="testimonial-card">
+
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “Tempat yang pas buat menikmati kopi
+                            sambil ngobrol bareng teman.”
+                        </p>
+
+                        <h3>— Fajar</h3>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOCATION
+        ========================== -->
+        <section class="location section" id="location">
+
+            <div class="container location-grid">
+
+                <div class="location-content">
+
+                    <p class="section-label">
+                        FIND US
+                    </p>
+
+                    <h2>
+                        Come & Have
+                        <span>A Coffee.</span>
+                    </h2>
+
+                    <p>
+                        Kami siap menyambut kamu setiap hari.
+                        Datang dan nikmati kopi favoritmu bersama
+                        suasana yang nyaman.
+                    </p>
+
+
+                    <div class="location-info">
+
+                        <div class="info-item">
+                            <strong>Address</strong>
+                            <p>
+                                Jl. Contoh No. 123, Bandung,
+                                Jawa Barat
+                            </p>
+                        </div>
+
+
+                        <div class="info-item">
+                            <strong>Opening Hours</strong>
+                            <p>
+                                Monday – Sunday<br>
+                                08.00 – 22.00 WIB
+                            </p>
+                        </div>
+
+
+                        <div class="info-item">
+                            <strong>Contact</strong>
+                            <p>
+                                -
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="location-map">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Bandung&output=embed"
+                        loading="lazy"
+                        allowfullscreen
+                        title="Lokasi coffee shop">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+        <section class="cta" id="contact">
+
+            <div class="container cta-content">
+
+                <p class="section-label">
+                    YOUR NEXT COFFEE
+                </p>
+
+                <h2>
+                    Your Coffee.
+                    <span>Your Moment.</span>
+                </h2>
+
+                <p>
+                    Jangan lewatkan secangkir kopi favoritmu.
+                    Pesan sekarang dan nikmati momen terbaikmu.
+                </p>
+
+                <a
+                    href="https://wa.me/6281234567890"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button button-light">
+                    Order via WhatsApp
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    KOPI<span>.</span>
+                </a>
+
+                <p>
+                    Good coffee, good mood,
+                    good moments.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Navigation</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#location">Location</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Follow Us</h3>
+
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">TikTok</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Contact</h3>
+
+                <p>
+                    -
+                </p>
+
+                <p>
+                    hello@kopi.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 KOPI. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
